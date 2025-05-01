@@ -15,8 +15,8 @@
     containerID: 'ask-chat-widget-container',
     targetSelectorDesktop: '.product-accordion.accordion-items.product-view__accordion', // Legacy, brukes som fallback
     targetSelectorMobile: '.product-description__short-description', // For skjermer smalere enn 768px
-    targetSelectorLargeDesktop: '.similar-product-list.product-view__similar-products', // For skjermer bredere enn 1024px
-    targetSelectorMediumDesktop: '.accordion-item__btn', // For skjermer mellom 768px og 1028px (kun første)
+    targetSelectorLargeDesktop: '.actions__add-to-cart', // For skjermer bredere enn 1024px
+    targetSelectorMediumDesktop: '.actions__add-to-cart', // For skjermer mellom 768px og 1028px (kun første)
     breakpoint: 768, // Grensepunkt for å bytte mellom mobile og desktop selektorer
     mediumBreakpoint: 1028, // Grensepunkt for mellomstore skjermer (768px-1028px)
     largeBreakpoint: 1024, // Grensepunkt for store skjermer (>=1024px)
