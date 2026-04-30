@@ -5,4 +5,4 @@ Really fast and lightweight web scrape on demand + cache to capture **all** prod
 ## functionality
 As mentioned it performs on demand webscraping, and we put a lot of effort into making the latency as low as possible. Had to build from scratch as most web scarping libraries/APIs were too slow and really expensive. Got some serious progression, and continously provided information to the LLMs below within <0.1s. using some fast and light LLMs, with optionality for pre-training/fine-tuning we also got the ice-breakers to load successfully on any given component of a ecommerce store, completely agnostic of the underlying system. This was the end goal: to provide this soloutin without any tideous setup and custom integration for every store, trying not to be just another shopify plugin. We had some issues getting the questions not to be too generic, and to provide real value, but with some background context, prompt-engineering and giving the agent tools for optional web-search (and storing the information within the product knowledge) we got better and more creative ice-breakers and answers. 
 ## setup 
-use vite :)
+Use vite :)
